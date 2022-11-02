@@ -2,3 +2,15 @@ reformatted __init__.py
 
 All done! \u2728 \U0001f370 \u2728
 1 file reformatted.
+reformatted agricom\agricom\urls.py
+reformatted agricom\agricom\wsgi.py
+reformatted agricom\manage.py
+reformatted agricom\reporter\admin.py
+reformatted agricom\reporter\apps.py
+reformatted agricom\agricom\asgi.py
+reformatted agricom\reporter\models.py
+reformatted agricom\reporter\migrations\0001_initial.py
+reformatted agricom\agricom\settings.py
+
+All done! \u2728 \U0001f370 \u2728
+9 files reformatted, 6 files left unchanged.
