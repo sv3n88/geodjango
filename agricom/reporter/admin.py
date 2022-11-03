@@ -5,6 +5,7 @@ from .models import Incidences
 
 # Register your models here.
 class IncidencesAdmin(admin.ModelAdmin):
+    # pass
     list_display = ("name", "location")
 
 
