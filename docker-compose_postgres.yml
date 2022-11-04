@@ -3,11 +3,10 @@ services:
     postgres_vg:
         image: kartoza/postgis:14-3.1
         container_name: agricom_db_container
-        restart: always
         environment:
             - POSTGRES_DB=agricom
             - POSTGRES_USER=postgres
             - POSTGRES_PASS=postgres
             - POSTGRES_MULTIPLE_EXTENSIONS=postgis,hstore,postgis_topology,postgis_raster,pgrouting
         ports:
-            - '5432:5432'
+            - '5433:5432'
